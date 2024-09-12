@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+  background-color: #0056b3;
+  transform: scale(1.00);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-container {
+  height: 200px;
+  /* Set a fixed height for the image container */
+  overflow: hidden;
+}
+
+.card-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* Ensure the image covers the container */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}

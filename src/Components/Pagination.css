@@ -1,0 +1,14 @@
+/* Add custom styles for PaginationComponent */
+.pagination-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pagination-item {
+  cursor: pointer;
+}
+
+.pagination-prev,
+.pagination-next {
+  cursor: pointer;
+}

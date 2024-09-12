@@ -1,0 +1,14 @@
+/* Add custom styles for SearchBar component */
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar .form-control {
+  flex: 1;
+}
+
+.search-bar .btn {
+  flex-shrink: 0;
+}
